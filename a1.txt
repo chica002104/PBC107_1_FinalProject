@@ -1,0 +1,429 @@
+
+
+ <SCRIPT LANGUAGE="JavaScript">
+   function show(message1)
+       {
+          new1=window.open("","教室資訊","location,status,resizable=yes,width=600,height=100");
+          new1.document.write (message1);
+       }
+   function show_close()
+       {
+           new1.close();
+       }
+ </SCRIPT>
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+<link rel=stylesheet type="text/css" href="font.css">
+<title>通識課程/新生專題/新生講座課程查詢</title>
+</HEAD>
+
+<BODY LEFTMARGIN="4" MARGINWIDTH="0" TOPMARGIN="0" MARGINHEIGHT="0" bgcolor="#FFFFFF" vlink="#666666">
+
+<table width="100%" border="0" cellspacing="3" cellpadding="0">
+      <tr> 
+    <td><font color="#333366"><a name="top"></a>您現在的位置：</font><a href="index.php">課程網頁查詢</a> &gt; 通識課程/新生專題/新生講座/基本能力課程</td>
+    <td> 
+ <div align="right"><font color="#CC3300"><b></b></font> <font color="#333366">
+，歡迎進入台大課程網!</font></div>  
+
+    </td>
+  </tr>
+</table>
+      
+
+      <table width="100%" border="0">
+      <tr>
+                <a target="_new" href=http://www.aca.ntu.edu.tw/aca2012/reg/SELCOU/107-1CREDIT.DOC> <font size=2  color=red>107-1修課學分數上下限規定</a>              </tr>
+        <tr> 
+          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4" bordercolor="#FFFFFF">
+            <tr>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_result.php">快速</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_01_major.php">共同</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_02_dpt.php">系所</a></td>
+              <td align="center" width="7%" bgcolor="#FFCCCC"><strong>通識/新生專題/新生講座/基本能力</strong></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#DBDBEC' onMouseOut=this.style.backgroundColor=''><a href="search_for_10_class.php">分班編組</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#DBDBEC' onMouseOut=this.style.backgroundColor=''><a href="search_for_05_ec.php">學程</a></td>
+              <td align="center" width="12%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#DBDBEC' onMouseOut=this.style.backgroundColor=''><a href="search_for_07_uw.php">進階英語<br>(研究生線上英文)</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#DBDBEC' onMouseOut=this.style.backgroundColor=''><a href="search_for_14_write.php">寫作教學</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_09_gym.php">體育/軍訓</a></td>
+      <!--        <td align="center" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_06_nd.php">進修學士</a></td> -->
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_04_dt.php">遠距</a></td>
+               <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_16_tri.php">臺大系統校際課程</a></td>
+                <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_17_in.php">密集課程</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_11_asy.php">非同步</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_13_eng.php">英語授課</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_12_cha.php">異動</a></td>
+              <td align="center" width="7%" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''><a href="search_for_08_other.php">其它</a></td>
+            <!--  <td align="center" bgcolor="#F0F0F7" onMouseOver=this.style.backgroundColor='#E3E3E3' onMouseOut=this.style.backgroundColor=''>
+              <a href="http://couweb3.aca.ntu.edu.tw/course/20.htm" target="_blank">Courses</a></td>-->
+
+            </tr>
+          </table>
+
+            <!--本體-->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function timeradio() {
+    var obj_time = document.getElementsByName("alltime");
+    var check1 = document.getElementById("week1");
+    var check2 = document.getElementById("week2");
+    var check3 = document.getElementById("week3");
+    var check4 = document.getElementById("week4");
+    var check5 = document.getElementById("week5");
+    var check6 = document.getElementById("week6");
+    if(obj_time[0].checked){//不限時間
+        check1.checked = check2.checked = check3.checked = check4.checked = check5.checked = check6.checked = false;
+    }
+}
+function procedradio() {
+    var obj_proced = document.getElementsByName("allproced");
+    var check0 = document.getElementById("proced0");
+    var check1 = document.getElementById("proced1");
+    var check2 = document.getElementById("proced2");
+    var check3 = document.getElementById("proced3");
+    var check4 = document.getElementById("proced4");
+    var checkE = document.getElementById("procedE");
+    var check5 = document.getElementById("proced5");
+    var check6 = document.getElementById("proced6");
+    var check7 = document.getElementById("proced7");
+    var check8 = document.getElementById("proced8");
+    var check9 = document.getElementById("proced9");
+    var checkA = document.getElementById("procedA");
+    var checkB = document.getElementById("procedB");
+    var checkC = document.getElementById("procedC");
+    var checkD = document.getElementById("procedD");
+
+    if(obj_proced[0].checked){//不限時間
+        check0.checked = check1.checked = check2.checked = check3.checked = check4.checked = checkE.checked =check5.checked = check6.checked = check7.checked = check8.checked = check9.checked = checkA.checked = checkB.checked = checkC.checked = checkD.checked =  false;
+    }
+}
+function daycheck() {
+    var obj_time = document.getElementsByName("alltime");
+    var check1 = document.getElementById("week1");
+    var check2 = document.getElementById("week2");
+    var check3 = document.getElementById("week3");
+    var check4 = document.getElementById("week4");
+    var check5 = document.getElementById("week5");
+    var check6 = document.getElementById("week6");
+    if(check1.checked||check2.checked||check3.checked||check4.checked||check5.checked||check6.checked){
+        obj_time[0].checked = false;
+        obj_time[1].checked = true;
+    }
+}
+
+function procedcheck() {
+    var obj_proced = document.getElementsByName("allproced");
+    var check0 = document.getElementById("proced0");
+    var check1 = document.getElementById("proced1");
+    var check2 = document.getElementById("proced2");
+    var check3 = document.getElementById("proced3");
+    var check4 = document.getElementById("proced4");
+    var checkE = document.getElementById("procedE");
+    var check5 = document.getElementById("proced5");
+    var check6 = document.getElementById("proced6");
+    var check7 = document.getElementById("proced7");
+    var check8 = document.getElementById("proced8");
+    var check9 = document.getElementById("proced9");
+    var checkA = document.getElementById("procedA");
+    var checkB = document.getElementById("procedB");
+    var checkC = document.getElementById("procedC");
+    var checkD = document.getElementById("procedD");
+
+    if(check0.checked||check1.checked||check2.checked||check3.checked||check4.checked||checkE.checked ||check5.checked||check6.checked||check7.checked||check8.checked||check9.checked||checkA.checked ||checkB.checked||checkC.checked||checkD.checked){
+        obj_proced[0].checked = false;
+        obj_proced[1].checked = true;
+    }
+}
+
+function sem_onchange() {
+    var objsel = document.getElementById("select_sem");
+    var obj_coursename = document.getElementById("coursename");
+    var obj_classarea = document.getElementById("classarea");   
+    var obj_teachername = document.getElementById("teachername");   
+    var obj_page=document.getElementById("page_cnt");
+    var obj_time = document.getElementsByName("alltime");
+    var alltime;
+    for (var i=0; i< obj_time.length;i++){
+        if (obj_time[i].checked) {
+            alltime = obj_time[i].value;
+            break;
+        }
+    }           
+    var check1=check2=check3=check4=check5=check6="";
+    if(document.getElementById("week1").checked)
+        check1 = document.getElementById("week1").value;
+    if(document.getElementById("week2").checked)
+        check2 = document.getElementById("week2").value;
+    if(document.getElementById("week3").checked)
+        check3 = document.getElementById("week3").value;
+    if(document.getElementById("week4").checked)
+        check4 = document.getElementById("week4").value;
+    if(document.getElementById("week5").checked)
+        check5 = document.getElementById("week5").value;
+    if(document.getElementById("week6").checked)
+        check6 = document.getElementById("week6").value;
+     var obj_proced = document.getElementsByName("allproced");
+    var allproced;
+    for (var i=0; i< obj_proced.length;i++){
+        if (obj_proced[i].checked) {
+            allproced = obj_proced[i].value;
+            break;
+        }
+    }           
+    var proced0=proced1=proced2=proced3=proced4=procedE=proced5=proced6=proced7=proced8=proced9=procedA=procedB=procedC=procedD="";
+     if(document.getElementById("proced0").checked)
+        proced0 = document.getElementById("proced0").value;
+     if(document.getElementById("proced1").checked)
+        proced1 = document.getElementById("proced1").value;
+     if(document.getElementById("proced2").checked)
+        proced2 = document.getElementById("proced2").value;
+     if(document.getElementById("proced3").checked)
+        proced3 = document.getElementById("proced3").value;
+     if(document.getElementById("proced4").checked)
+        proced4 = document.getElementById("proced4").value;
+     if(document.getElementById("procedE").checked)
+        procedE = document.getElementById("procedE").value;
+     if(document.getElementById("proced5").checked)
+        proced5 = document.getElementById("proced5").value;
+     if(document.getElementById("proced6").checked)
+        proced6 = document.getElementById("proced6").value;
+     if(document.getElementById("proced7").checked)
+        proced7 = document.getElementById("proced7").value;
+     if(document.getElementById("proced8").checked)
+        proced8 = document.getElementById("proced8").value;
+     if(document.getElementById("proced9").checked)
+        proced9 = document.getElementById("proced9").value;
+     if(document.getElementById("procedA").checked)
+        procedA = document.getElementById("procedA").value;
+     if(document.getElementById("procedB").checked)
+        procedB = document.getElementById("procedB").value;
+     if(document.getElementById("procedC").checked)
+        procedC = document.getElementById("procedC").value;
+     if(document.getElementById("procedD").checked)
+        procedD = document.getElementById("procedD").value;
+    var url="search_for_03_co.php?current_sem="+objsel.options[objsel.selectedIndex].value+"&coursename="+obj_coursename.value+"&classarea="+obj_classarea.options[obj_classarea.selectedIndex].value+"&teachername="+obj_teachername.value+"&alltime="+alltime+"&week1="+check1+"&week2="+check2+"&week3="+check3+"&week4="+check4+"&week5="+check5+"&week6="+check6+"&allproced="+allproced+"&proced0="+proced0+"&proced1="+proced1+"&proced2="+proced2+"&proced3="+proced3+"&proced4="+proced4+"&procedE="+procedE+"&proced5="+proced5+"&proced6="+proced6+"&proced7="+proced7+"&proced8="+proced8+"&proced9="+proced9+"&procedA="+procedA+"&procedB="+procedB+"&procedC="+procedC+"&procedD="+procedD+"&page_cnt="+obj_page.value;
+    window.location = url;
+}
+//-->
+</SCRIPT>
+
+            <table width="100%" border="1" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF" cellpadding="6" bgcolor="#FFCCCC">
+              <tr> 
+                <td valign="top"> 
+                
+                    <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                  <form name="form1" method="post" action="search_for_03_co.php">
+                    <input type="hidden" name="current_sem" value="107-1">    
+                    <tr> 
+                        <td colspan="3"><b><font color="#FF0000">通識課程/新生專題/新生講座課程查詢</font></b></td>
+                      </tr>
+
+                      <tr>
+                        <td width="120" align="right">領&nbsp;域&nbsp;別&nbsp;：</td>
+                        <td width="480"><select name="classarea" id="classarea">
+                        
+                          <option value=e >新生專題/新生講座課程(非通識課程) </option>
+                          <option value=b >基本能力課程 </option>
+                          <option value=a >不分領域通識課程 </option>
+                          <option value=1 selected>A1:文學與藝術領域 </option>
+                          <option value=2 >A2:歷史思維領域 </option>
+                          <option value=3 >A3:世界文明領域 </option>
+                          <option value=4 >A4:哲學與道德思考領域</option>
+                          <option value=5 >A5:公民意識與社會分析領域</option><option value=6 >A6:量化分析與數學素養領域</option><option value=7 >A7:物質科學領域</option><option value=8 >A8:生命科學領域</option>
+
+                        </select></td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+                      <tr><td width="120" align="right">課程名稱：</td>
+                        <td width="480">
+                        <input type="text" name="coursename" id="coursename" value = "" size="12" >
+                        教師名稱： <input type="text" name="teachername" id="teachername" value = "" size="12">         </td>
+                        <td>&nbsp;</td>
+                      </tr>
+
+                <tr>
+                <td width="120" align="right">上課時間：</td>
+                <td width="480">
+                      <input name="alltime" type="radio" onClick="timeradio()" value="yes" checked checked LANGUAGE=javascript> 不限                        <input name="alltime" type="radio" value="no"  LANGUAGE=javascript onClick="timeradio()"> 限定                        <input id="week1" name="week1" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                                週一 
+                                <input id="week2" name="week2" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                                週二 
+                                <input id="week3" name="week3" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                                週三 
+                                <input id="week4" name="week4" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                                週四 
+                                <input id="week5" name="week5" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                                週五 
+                                <input id="week6" name="week6" type="checkbox" value="1"  LANGUAGE=javascript onClick="daycheck()">
+                      週六 </td>
+                <td>&nbsp;</td>
+                </tr>
+              <tr> 
+                  <td width="120" align="right">節次：</td>
+                  <td width="480">
+                        <input name="allproced" type="radio" onClick="procedradio()" value="yes" checked checked language=javascript> 不限                  </td>
+                  <td>&nbsp;</td>
+                </tr>
+                     <tr> 
+                  <td width="120" align="right">　　　　　</td>
+                  <td colspan="2"><input name="allproced" type="radio" value="no"  language=javascript onClick="procedradio()">
+                    限定                                             <input id="proced0" name="proced0" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             0 7:10~8:00                                             <input id="proced1" name="proced1" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             1 8:10~9:00                                             <input id="proced2" name="proced2" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             2 9:10~10:00                                             <input id="proced3" name="proced3" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             3 10:20~11:10                                             <input id="proced4" name="proced4" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             4 11:20~12:10                                            
+                                             <input id="proced5" name="proced5" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             5 12:20~13:10                                             <input id="proced6" name="proced6" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             6 13:20~14:10 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <input id="proced7" name="proced7" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             7 14:20~15:10                                             <input id="proced8" name="proced8" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             8 15:30~16:20                                             <input id="proced9" name="proced9" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             9 16:30~17:20                                              <input id="procedE" name="procedE" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             10 17:30~18:20                                             <input id="procedA" name="procedA" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             A 18:25~19:15                                             <input id="procedB" name="procedB" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             B 19:20~20:10                                             <input id="procedC" name="procedC" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             C 20:15~21:05                                             <input id="procedD" name="procedD" type="checkbox" value="1"  language=javascript onClick="procedcheck()">
+                                             D 21:10~22:00
+                </tr>
+                <tr>
+                  <td width="120" align="right" colspan="2">每頁顯示筆數                    <input type="text" id="page_cnt" name="page_cnt" value="50" size="4">
+                  </td>
+                  <td width="480" align="left">
+                    
+                     <input type="submit" name="Submit22" value="查詢"></td>
+                  
+                </tr> </form>
+                    </table>
+
+              </td></tr>
+            </table>
+            </td>
+          </tr>
+          </table>
+            
+<table width="100%" border="0">
+  <tr>
+     <td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-1/casge.pdf target=_blank>採計為通識學分之專業基礎科目</a></td></tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-1/com.htm target=_blank>通識選課注意事項</a>後再選課 <img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 96學年度起入學學生請參考<a href=../note/107-1/comarea.pdf  target=blank>各院系指定學生應修習通識課程領域一覽表</A></td></tr><tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle" >95學年度(含)之前入學學生請參考 <a href=../note/107-1/95comarea.pdf target=_blank>各學系歸屬領域一覽表</A>, <a href=../note/107-1/credit_waive.pdf target=_blank>通識課程充抵共同必修科目一覽表 </a></TD></tr>
+
+</table>
+
+      <table width="100%" border="0" cellpadding="4">
+        <tr> 
+          <td>
+           <SELECT id=select_sem name=select_sem LANGUAGE=javascript onChange="return sem_onchange()">
+          
+test
+        <option selected value="107-1">107-1</option>
+        <option  value="106-2">106-2</option>
+        <option  value="106-1">106-1</option>   
+        <option  value="105-2">105-2</option>
+        <option  value="105-1">105-1</option>
+        <option  value="104-2">104-2</option>
+        <option  value="104-1">104-1</option>
+        <option  value="103-2">103-2</option>
+        <option  value="103-1">103-1</option>
+        <option  value="102-2">102-2</option>
+        <option  value="102-1">102-1</option>
+        <option  value="101-2">101-2</option>
+        <option  value="101-1">101-1</option>
+        <option  value="100-2">100-2</option>
+        <option  value="100-1">100-1</option>
+        <option  value="99-2">99-2</option>
+        <option  value="99-1">99-1</option>
+        <option  value="98-2">98-2</option>
+        <option  value="98-1">98-1</option>
+        <option  value="97-2">97-2</option>
+        <option  value="97-1">97-1</option>
+        <option  value="96-2">96-2</option>
+        <option  value="96-1">96-1</option>
+        <option  value="95-2">95-2</option>
+        <option  value="95-1">95-1</option> 
+        <option  value="94-2">94-2</option>
+        <option  value="94-1">94-1</option> 
+        <option  value="93-2">93-2</option> 
+        <option  value="93-1">93-1</option> 
+        
+            </select>
+          
+          共查詢到<font color="#CC0033"> <b>31</b> </font>筆課程：</td>
+          <td align='right'>
+&lt;&lt;上一頁　　        <SCRIPT LANGUAGE="JavaScript">
+            window.open('com.htm','schedule','height=600,width=730,scrollbars=yes,resizable=yes');
+        </SCRIPT>
+下一頁&gt;&gt;　<select name="jump" onChange="location.href=this.options[this.selectedIndex].value;">
+<option value='?alltime=yes&allproced=yes&op=stu&classarea=1&coursename=&teachername=&startrec=0&current_sem=107-1&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=50' selected>第1頁</option></select>   
+          </td>
+        </tr>
+      </table>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var window_schedule = '';
+
+function schedule_add(cid)
+{
+    if (!window_schedule.closed && window_schedule.location)
+        window_schedule.location.href = 'myschedule.php?add='+cid;
+    else
+        window_schedule=window.open('myschedule.php?add='+cid,'schedule','height=500,width=730,scrollbars=yes,resizable=yes');
+        
+    if (window.focus) {window_schedule.focus()}
+    return false;
+}
+
+</SCRIPT> 
+<table width="100%" border="1" cellspacing="1" cellpadding="1" bordercolorlight="#CCCCCC" bordercolordark="#CCCCCC">
+<tr bgcolor="#DDEDFF" align="center"><td height="25">流水號</td><td>授課對象</td><td>課號</td><td>班次</td><td>課程名稱<br><font color=red>查看課程大綱，請點選課程名稱</font><td>簡介影片<td>學分</td><td>課程識別碼</td><td>全/半年</td><td>授課教師</td><td>加選<br>方式</td><td>時間<br>教室</td><td>總人數</td><td width=15%>選課限制條件</td><td width=15%>備註</td><td width=3%>課程網頁</td><td width=10%>本學期<br>我預計<br>要選的<br>課程</td></tr>
+<tr align="center"><TD>21919</TD><TD>&nbsp;</TD><TD>CHIN2252</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=101 21800&class=&dpt_code=0000&ser_no=21919&semester=107-1&lang=CH">三國縱橫</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>101 21800</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=101070">徐富昌</A></TD><TD>2</TD><TD>四8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅103)</a></TD><TD>270</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：270人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071sango"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('21919')">加入</a></td></tr>
+<tr align="center"><TD>69175</TD><TD>&nbsp;</TD><TD>CHIN1049</TD><TD>01</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=101 28310&class=01&dpt_code=0000&ser_no=69175&semester=107-1&lang=CH">音樂作品欣賞一</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>101 28310</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=101284">蔡世豪</A></TD><TD>3<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>四3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1032   target=_new >(外教劇場)</a></TD><TD>175</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：175人<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD ALIGN="left" VALIGN="TOP">文學院限30人，非總區不限年級，總區限大三以上，大四優先。A1*:文學與藝術領域。兼通識A1*。。A1*:文學與藝術領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071CHIN1049_01"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('69175')">加入</a></td></tr>
+<tr align="center"><TD>50199</TD><TD>&nbsp;</TD><TD>CHIN1049</TD><TD>02</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=101 28310&class=02&dpt_code=0000&ser_no=50199&semester=107-1&lang=CH">音樂作品欣賞一</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>101 28310</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=101284">蔡世豪</A></TD><TD>3<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>五3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1032   target=_new >(外教劇場)</a></TD><TD>175</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：175人<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD ALIGN="left" VALIGN="TOP">文學院限30人，非總區不限年級，總區限大三以上，大四優先。A1*:文學與藝術領域。兼通識A1*。。A1*:文學與藝術領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071CHIN1049_02"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('50199')">加入</a></td></tr>
+<tr align="center"><TD>12179</TD><TD>&nbsp;</TD><TD>CHIN5053</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=101 52400&class=&dpt_code=0000&ser_no=12179&semester=107-1&lang=CH">宋詞之美</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>101 52400</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=101088">劉少雄</A></TD><TD>2</TD><TD>一7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1009   target=_new >(普102)</a></TD><TD>180(含開放臺大系統人數:10)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：170人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071CHIN5053_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('12179')">加入</a></td></tr>
+<tr align="center"><TD>18704</TD><TD>&nbsp;</TD><TD>FL2065</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=102 43990&class=&dpt_code=0000&ser_no=18704&semester=107-1&lang=CH">西洋歌劇史二</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>102 43990</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=102267">王寶祥</A></TD><TD>2</TD><TD>一2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅202)</a></TD><TD>70</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：70人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071FL2065_opera"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('18704')">加入</a></td></tr>
+<tr align="center"><TD>30558</TD><TD>&nbsp;</TD><TD>Thea1104</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=109 12100&class=&dpt_code=0000&ser_no=30558&semester=107-1&lang=CH">戲曲後花園</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>109 12100</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=109051">鍾幸玲</A></TD><TD>2</TD><TD>三8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新203)</a></TD><TD>80</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人</TD><TD ALIGN="left" VALIGN="TOP">第一週停課，第二週未到請退選。兼為亞洲藝術及藝術設計學程課程。兼通識A1*。。A1*:文學與藝術領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Thea1104_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('30558')">加入</a></td></tr>
+<tr align="center"><TD>30493</TD><TD>&nbsp;</TD><TD>Thea1106</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=109 13100&class=&dpt_code=0000&ser_no=30493&semester=107-1&lang=CH">劇場實驗：表演</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>109 13100</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=109035">符宏征</A></TD><TD>2</TD><TD>四2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2015   target=_new >(總一館106)</a></TD><TD>20</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：20人,外系人數限制：20人</TD><TD ALIGN="left" VALIGN="TOP">第一次上課甄選，未甄選上者請自行退選。。A1:文學與藝術</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('30493')">加入</a></td></tr>
+<tr align="center"><TD>85032</TD><TD>&nbsp;</TD><TD>Thea1115</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=109 15100&class=&dpt_code=0000&ser_no=85032&semester=107-1&lang=CH">視覺識別設計</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>109 15100</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=109062">林柏涵</A></TD><TD>2</TD><TD>一8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新203)</a></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">兼為藝術設計學程課程。學程學生優先選課。兼通識A1*。。A1*:文學與藝術領域。可充抵通識</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('85032')">加入</a></td></tr>
+<tr align="center"><TD>45322</TD><TD>&nbsp;</TD><TD>Thea1117</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=109 15300&class=&dpt_code=0000&ser_no=45322&semester=107-1&lang=CH">當代藝術研究一</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>109 15300</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=109064">駱麗真</A></TD><TD>2</TD><TD>三3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新503)</a></TD><TD>40</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：40人</TD><TD ALIGN="left" VALIGN="TOP">第一週上課未到者不得修課。不可併修當代藝術研究二。兼為藝術設計學程課程。學程學生優先選課。兼通識A1*。。A1*:文學與藝術領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071CAS01"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('45322')">加入</a></td></tr>
+<tr align="center"><TD>42251</TD><TD>&nbsp;</TD><TD>Music3007</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 30500&class=&dpt_code=0000&ser_no=42251&semester=107-1&lang=CH">古琴音樂欣賞與實習【一】</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>144 30500</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144020">李孔元</A></TD><TD>2</TD><TD>二3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2005-1 target=_new >(樂學館106)</a></TD><TD>16</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：16人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。請於開學第一次上課時提交個人簡歷、學習古琴的動機、審查通過後以授權碼加選。。A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Music3007_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('42251')">加入</a></td></tr>
+<tr align="center"><TD>28736</TD><TD>&nbsp;</TD><TD>Music3005</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 30600&class=&dpt_code=0000&ser_no=28736&semester=107-1&lang=CH">南管音樂欣賞與實習一</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>144 30600</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144009">王心心</A></TD><TD>2</TD><TD>一3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2005-1 target=_new >(樂學館106)</a></TD><TD>15</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：15人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('28736')">加入</a></td></tr>
+<tr align="center"><TD>84599</TD><TD>&nbsp;</TD><TD>Music3018</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 31800&class=&dpt_code=0000&ser_no=84599&semester=107-1&lang=CH">爵士音樂</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>144E31800</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144016">陳人彥</A></TD><TD>2</TD><TD>二7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2005-1 target=_new >(樂學館106)</a></TD><TD>16(含開放臺大系統人數:6)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：10人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。本課程以英語授課。有興趣修課學生應向教課老師提供英文修課動機說明。A13:文學與藝術、世界文明<A TARGET="_new" HREF="https://ceiba.ntu.edu.tw/question.php?lang=big5&course_id=144 31800&class=&semester=107-1">本課程英文化程度說明</A></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071jazz"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('84599')">加入</a></td></tr>
+<tr align="center"><TD>51209</TD><TD>&nbsp;</TD><TD>Music3022</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 32200&class=&dpt_code=0000&ser_no=51209&semester=107-1&lang=CH">音樂作品中的愛</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>144 32200</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144015">蔡振家</A></TD><TD>2</TD><TD>一2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2006   target=_new >(文演講廳)</a></TD><TD>140(含開放臺大系統人數:10)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：130人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。加簽者繳交陳奕迅MV〈一絲不掛〉，具體描述音樂、歌詞、影像及該作品對自己人生觀影響。A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Music3022_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('51209')">加入</a></td></tr>
+<tr align="center"><TD>35972</TD><TD>&nbsp;</TD><TD>Music5043</TD><TD>01</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 U0690&class=01&dpt_code=0000&ser_no=35972&semester=107-1&lang=CH">全球音樂文化</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>144 U0690</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144017">陳峙維</A></TD><TD>3</TD><TD>二3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅201)</a></TD><TD>100(含開放臺大系統人數:4)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：96人</TD><TD ALIGN="left" VALIGN="TOP">通識課不採計研究生畢業學分。A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071GM"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('35972')">加入</a></td></tr>
+<tr align="center"><TD>13757</TD><TD>&nbsp;</TD><TD>Music5065</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 U0930&class=&dpt_code=0000&ser_no=13757&semester=107-1&lang=CH">音樂、演化與大腦</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>144 U0930</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144015">蔡振家</A></TD><TD>2</TD><TD>二2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=         target=_new >(綜503)</a><IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>40(含開放臺大系統人數:4)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：36人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。加簽者針對兩篇文章交讀後感，具體描述兩篇的論點、提出個人案例補充。老師依內容選約40名給授權碼。。A18:文學與藝術、生命科學</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Music5065_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('13757')">加入</a></td></tr>
+<tr bgcolor=yellow align="center"><TD>80086</TD><TD>&nbsp;</TD><TD>Music5069</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=144 U0970&class=&dpt_code=0000&ser_no=80086&semester=107-1&lang=CH">歐洲音樂文化史（一）</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>144 U0970</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=144013">楊建章</A></TD><TD>2</TD><TD>四7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新103)</a><IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>50(含開放臺大系統人數:10)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：40人</TD><TD ALIGN="left" VALIGN="TOP">初選大學部一年級到四年級平均10名。A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Music5069_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('80086')">加入</a></td></tr>
+<tr align="center"><TD>71287</TD><TD>&nbsp;</TD><TD>TwLit1025</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=145 10200&class=&dpt_code=0000&ser_no=71287&semester=107-1&lang=CH">在地酷兒文學與網路社群文化</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>145 10200</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=145031">鄭芳婷</A></TD><TD>2</TD><TD>四6,7,8<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅310)</a></TD><TD>30(含開放臺大系統人數:2)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：28人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071TwLit1025_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('71287')">加入</a></td></tr>
+<tr align="center"><TD>14022</TD><TD>&nbsp;</TD><TD>TwLit1033</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=145 10430&class=&dpt_code=0000&ser_no=14022&semester=107-1&lang=CH">戰後臺灣短篇小說選讀</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>145 10430</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=145032">張俐璇</A></TD><TD>3</TD><TD>五6,7,8<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新502)</a></TD><TD>40</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：40人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071TwLit1033_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('14022')">加入</a></td></tr>
+<tr align="center"><TD>37763</TD><TD>&nbsp;</TD><TD>TwLit1034</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=145 10440&class=&dpt_code=0000&ser_no=37763&semester=107-1&lang=CH">戰後臺灣歷史小說導論</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>145E10440</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=147008">陳榮彬</A></TD><TD>2</TD><TD>四6,7<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅302)</a></TD><TD>30(含開放臺大系統人數:10)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：20人</TD><TD ALIGN="left" VALIGN="TOP">本課程以英語授課。使用中文及英文書籍。限國際生，本地生須於開學後，通過面談方可選課；面試不通過者，將強制刪除選課。。A1:文學與藝術<A TARGET="_new" HREF="https://ceiba.ntu.edu.tw/question.php?lang=big5&course_id=145 10440&class=&semester=107-1">本課程英文化程度說明</A></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071TwLit1034_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('37763')">加入</a></td></tr>
+<tr align="center"><TD>67393</TD><TD>&nbsp;</TD><TD>TwLit5012</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=145 U0180&class=&dpt_code=0000&ser_no=67393&semester=107-1&lang=CH">臺灣現代主義小說</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>145 U0180</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=145002">柯慶明</A></TD><TD>2</TD><TD>三8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅101)</a></TD><TD>400</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：400人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071TwLit5012"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('67393')">加入</a></td></tr>
+<tr bgcolor=yellow align="center"><TD>31464</TD><TD>&nbsp;</TD><TD>TwLit5013</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=145 U0190&class=&dpt_code=0000&ser_no=31464&semester=107-1&lang=CH">東亞近代文學選讀</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>145 U0190</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=145007">張文薰</A></TD><TD>2</TD><TD>五6,7,8<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新404)</a><IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071TwLit5013_easta"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('31464')">加入</a></td></tr>
+<tr bgcolor=yellow align="center"><TD>74023</TD><TD>&nbsp;</TD><TD>Geog3019</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=208 37600&class=&dpt_code=0000&ser_no=74023&semester=107-1&lang=CH">都市文化導論</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>208 37600</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=208059">黃宗儀</A></TD><TD>2</TD><TD>三3,4,5<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT4018   target=_new >(地理305)</a></TD><TD>80(含開放臺大系統人數:4)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：76人</TD><TD ALIGN="left" VALIGN="TOP">本課程中文授課,使用英文教科書。。A15:文學與藝術、公民意識與社會分析</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071Geog3019_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('74023')">加入</a></td></tr>
+<tr align="center"><TD>89115</TD><TD>&nbsp;</TD><TD>MD&PH5002</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=405 50400&class=&dpt_code=0000&ser_no=89115&semester=107-1&lang=CH">藝術概論一</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>405 50400</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=401376">吳寬墩</A></TD><TD>3</TD><TD>三8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=CN1004   target=_new >(基醫101)</a></TD><TD>150</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：150人</TD><TD ALIGN="left" VALIGN="TOP">表演藝術兼通識A1*。。A1*:文學與藝術領域。可充抵通識與陳振陽合授</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071_art"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('89115')">加入</a></td></tr>
+<tr align="center"><TD>25699</TD><TD>&nbsp;</TD><TD>MD&PH5024</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=405 52700&class=&dpt_code=0000&ser_no=25699&semester=107-1&lang=CH">醫學與人文</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>405 52700</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=457011">陳彥元</A></TD><TD>2</TD><TD>五6,7<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=CN1004   target=_new >(基醫301)</a></TD><TD>80</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人</TD><TD ALIGN="left" VALIGN="TOP">與徐思淳.林子忻合開。兼通識A12*。。A12*:文學與藝術、歷史思維領域。可充抵通識與吳寬墩、許博欽、呂  立、蘇真真、朱宗信、蔡詩力合授</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071MDPH5024"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('25699')">加入</a></td></tr>
+<tr align="center"><TD>25539</TD><TD>&nbsp;</TD><TD>LibEdu1020</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H01 02000&class=&dpt_code=0000&ser_no=25539&semester=107-1&lang=CH">鋼琴作品與演奏欣賞</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>H01 02000</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H01016">張欽全</A></TD><TD>2</TD><TD>四8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2006   target=_new >(文演講廳)</a></TD><TD>130</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：130人</TD><TD ALIGN="left" VALIGN="TOP">A1:文學與藝術</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('25539')">加入</a></td></tr>
+<tr align="center"><TD>96388</TD><TD>&nbsp;</TD><TD>TA10310173</TD><TD>04</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TA01UG012&class=04&dpt_code=K010&ser_no=96388&semester=107-1&lang=CH">舞蹈鑑賞</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>TA01UG012</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">王宏豪</A></TD><TD>2</TD><TD>一3,4(本部 誠102)</TD><TD>4</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：4人</TD><TD ALIGN="left" VALIGN="TOP">臺師大校際課程。臺大通識課程，A1：文學與藝術領域。</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96388')">加入</a></td></tr>
+<tr align="center"><TD>96389</TD><TD>&nbsp;</TD><TD>TA10310173</TD><TD>05</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TA01UG012&class=05&dpt_code=K010&ser_no=96389&semester=107-1&lang=CH">舞蹈鑑賞</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>TA01UG012</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">王宏豪</A></TD><TD>2</TD><TD>四3,4(本部 誠202)</TD><TD>4</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：4人</TD><TD ALIGN="left" VALIGN="TOP">臺師大校際課程。臺大通識課程，A1：文學與藝術領域。</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96389')">加入</a></td></tr>
+<tr align="center"><TD>96390</TD><TD>&nbsp;</TD><TD>TA10610001</TD><TD>17</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TA01UG027&class=17&dpt_code=K010&ser_no=96390&semester=107-1&lang=CH">日本美術鑑賞</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>TA01UG027</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">蔡家丘</A></TD><TD>2</TD><TD>三3,4(本部 正403)</TD><TD>2</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：2人</TD><TD ALIGN="left" VALIGN="TOP">臺師大校際課程。臺大通識課程，A1：文學與藝術領域。</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96390')">加入</a></td></tr>
+<tr align="center"><TD>96391</TD><TD>&nbsp;</TD><TD>TA10310193</TD><TD>39</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TA03UG012&class=39&dpt_code=K010&ser_no=96391&semester=107-1&lang=CH">臺灣流行文化</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>TA03UG012</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">莊佳穎</A></TD><TD>2</TD><TD>四6,7(本部 誠101)</TD><TD>3</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：3人</TD><TD ALIGN="left" VALIGN="TOP">臺師大校際課程。臺大通識課程，A1：文學與藝術領域，A5：公民意識與社會分析領域。</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96391')">加入</a></td></tr>
+<tr align="center"><TD>96230</TD><TD>&nbsp;</TD><TD>TB10410016</TD><TD>01</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TBCC12483&class=01&dpt_code=K020&ser_no=96230&semester=107-1&lang=CH">創意與經典閱讀（一）</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>TBCC12483</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">張瀛太</A></TD><TD>2</TD><TD>五2,3,4(AU-101)</TD><TD>15</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：15人</TD><TD ALIGN="left" VALIGN="TOP">臺科大校際課程。課程性質：學士班。臺大通識課程，A1：文學與藝術領域。限115人、國文領域</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96230')">加入</a></td></tr>
+<tr align="center"><TD>96231</TD><TD>&nbsp;</TD><TD>TB10410016</TD><TD>02</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=TBCC12483&class=02&dpt_code=K020&ser_no=96231&semester=107-1&lang=CH">創意與經典閱讀（一）</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>TBCC12483</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=000001">張瀛太</A></TD><TD>2</TD><TD>五6,7,8(AU-101)</TD><TD>15</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：15人</TD><TD ALIGN="left" VALIGN="TOP">臺科大校際課程。課程性質：學士班。臺大通識課程，A1：文學與藝術領域。限115人、國文領域</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('96231')">加入</a></td></tr>
+</table>
+
+
+
+<table width="100%" border="0" cellpadding="4">
+<tr>
+    <td align='left'> <font color="#CC0033">開學後之加選方式:1-不限人數，直接上網加選  2-向教師取得授權碼後加選  3-有人數限制，上網登記後分發<br>「選課限制條件」欄位中有關身分之限制，僅適用於初選階段，不適用於開學後之加退選階段。但下列二種情況仍須限制：<br>1.較高學制課程未開放較低學制學生修習者（僅第一、三類加選方式課程適用）。<br>2.在職專班課程限在職專班學生修習（各類加選方式皆適用）。 </td>
+</tr>
+    <tr>
+          <td align='left'>共查詢到<font color="#CC0033"> <b>31</b> </font>筆課程</td>
+          <td align='right'>
+&lt;&lt;上一頁　　下一頁&gt;&gt;　<select name="jump" onChange="location.href=this.options[this.selectedIndex].value;">
+<option value='?alltime=yes&allproced=yes&op=stu&classarea=1&coursename=&teachername=&startrec=0&current_sem=107-1&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=50' selected>第1頁</option></select>   
+          </td>
+        </tr>
+      </table>
+
+</BODY>
+</HTML>
