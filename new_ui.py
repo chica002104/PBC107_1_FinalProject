@@ -163,7 +163,6 @@ class Search:
         # self.listbox6.yview("scroll", event.delta, "units")
         # self.listbox7.yview("scroll", event.delta, "units")
         # self.listbox8.yview("scroll", event.delta, "units")
-
         return "break"
 
 
