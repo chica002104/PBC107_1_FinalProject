@@ -70,9 +70,9 @@ class Home(tk.Frame):
 
 		for x in range(len(opt)):
 			if tmp == opt[x]:
-				print(opt)
+				# print(opt)
 				tmp2 = database[x]  # 找出該科系可抵通識的領域
-				print(tmp2)
+				# print(tmp2)
 		for x in range(len(tmp2)):
 			if tmp2[x] == 1:
 				choose.append(x)  # 新增到另一個list
@@ -122,7 +122,7 @@ class Search:
             # self.listbox7.insert(END, view[i][6])
             # self.listbox8.insert(END, view[i][7])
 
-        print(view[1])
+        # print(view[1])
 
         self.listbox1.pack(side = LEFT, fill = BOTH)
         self.listbox2.pack(side = LEFT, fill = BOTH)
@@ -196,7 +196,8 @@ def read_dept():
 
 
 if __name__ == "__main__":
-	read_dept()
-	app = Home()
-	app.mainloop()
+    read_dept()
+    app = Home()
+    app.master.title("智慧通識小幫手")
+    app.mainloop()
 
