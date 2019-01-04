@@ -4,7 +4,7 @@ import csv
 import numpy as np
 import pickle
 import pandas as pd
-from tkintertable import TableCanvas, TableModel
+# from tkintertable import TableCanvas, TableModel
 
 
 dept = []
