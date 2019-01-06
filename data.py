@@ -17,10 +17,11 @@ for x in range(1,9):
 				y[z] = y[z].split('<')[0]
 			new = []
 			for z in y:
-				if (len(z) >=2)& ('nbsp' not in z) & ('加入' not in z):
+				if (len(z) >= 2)& ('nbsp' not in z) & ('加入' not in z):
 					new.append(z)
-			data[x-1].append(new)
+			data[x - 1].append(new)
 for x in range(8):
+	del data[x][0] # 把第一列刪除
 	print(len(data[x]))
 	print(data[x])
 file = open('lecture.pickle', 'wb')
