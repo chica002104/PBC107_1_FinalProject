@@ -1,5 +1,6 @@
 
 
+
  <SCRIPT LANGUAGE="JavaScript">
    function show(message1)
        {
@@ -25,8 +26,8 @@
       <tr> 
     <td><font color="#333366"><a name="top"></a>您現在的位置：</font><a href="index.php">課程網頁查詢</a> &gt; 通識課程/新生專題/新生講座/基本能力課程</td>
     <td> 
- <div align="right"><font color="#CC3300"><b></b></font> <font color="#333366">
-，歡迎進入台大課程網!</font></div>  
+ <div align="right"><font color="#CC3300"><b>&#x6d2a;&#x9298;&#x9d3b;</b></font> <font color="#333366">
+同學，歡迎進入台大課程網!</font></div>  
 
     </td>
   </tr>
@@ -35,7 +36,7 @@
 
       <table width="100%" border="0">
       <tr>
-                <a target="_new" href=http://www.aca.ntu.edu.tw/aca2012/reg/SELCOU/107-1CREDIT.DOC> <font size=2  color=red>107-1修課學分數上下限規定</a>              </tr>
+                <a target="_new" href=http://www.aca.ntu.edu.tw/aca2012/reg/SELCOU/107-2CREDIT.DOC> <font size=2  color=red>107-2修課學分數上下限規定</a>              </tr>
         <tr> 
           <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="4" bordercolor="#FFFFFF">
             <tr>
@@ -215,7 +216,7 @@ function sem_onchange() {
                 
                     <table width="100%" border="0" cellspacing="0" cellpadding="2">
                   <form name="form1" method="post" action="search_for_03_co.php">
-                    <input type="hidden" name="current_sem" value="107-1">    
+                    <input type="hidden" name="current_sem" value="107-2">    
                     <tr> 
                         <td colspan="3"><b><font color="#FF0000">通識課程/新生專題/新生講座課程查詢</font></b></td>
                       </tr>
@@ -289,7 +290,7 @@ function sem_onchange() {
                                              D 21:10~22:00
                 </tr>
                 <tr>
-                  <td width="120" align="right" colspan="2">每頁顯示筆數                    <input type="text" id="page_cnt" name="page_cnt" value="50" size="4">
+                  <td width="120" align="right" colspan="2">每頁顯示筆數                    <input type="text" id="page_cnt" name="page_cnt" value="100" size="4">
                   </td>
                   <td width="480" align="left">
                     
@@ -306,7 +307,7 @@ function sem_onchange() {
             
 <table width="100%" border="0">
   <tr>
-     <td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-1/casge.pdf target=_blank>採計為通識學分之專業基礎科目</a></td></tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-1/com.htm target=_blank>通識選課注意事項</a>後再選課 <img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 96學年度起入學學生請參考<a href=../note/107-1/comarea.pdf  target=blank>各院系指定學生應修習通識課程領域一覽表</A></td></tr><tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle" >95學年度(含)之前入學學生請參考 <a href=../note/107-1/95comarea.pdf target=_blank>各學系歸屬領域一覽表</A>, <a href=../note/107-1/credit_waive.pdf target=_blank>通識課程充抵共同必修科目一覽表 </a></TD></tr>
+     <td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-2/casge.pdf target=_blank>採計為通識學分之專業基礎科目</a></td></tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 請詳讀<a href=../note/107-2/com.htm target=_blank>通識選課注意事項</a>後再選課 <img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle"> 96學年度起入學學生請參考<a href=../note/107-2/comarea.pdf  target=blank>各院系指定學生應修習通識課程領域一覽表</A></td></tr><tr><td><img src="images/info.gif" alt="" name="NOTE" width="20" height="20" align="absmiddle" >95學年度(含)之前入學學生請參考 <a href=../note/107-2/95comarea.pdf target=_blank>各學系歸屬領域一覽表</A>, <a href=../note/107-2/credit_waive.pdf target=_blank>通識課程充抵共同必修科目一覽表 </a></TD></tr>
 
 </table>
 
@@ -316,9 +317,11 @@ function sem_onchange() {
            <SELECT id=select_sem name=select_sem LANGUAGE=javascript onChange="return sem_onchange()">
           
 test
-        <option selected value="107-1">107-1</option>
+   
+        <option selected value="107-2">107-2</option>
+        <option  value="107-1">107-1</option>
         <option  value="106-2">106-2</option>
-        <option  value="106-1">106-1</option>   
+        <option  value="106-1">106-1</option>
         <option  value="105-2">105-2</option>
         <option  value="105-1">105-1</option>
         <option  value="104-2">104-2</option>
@@ -340,21 +343,20 @@ test
         <option  value="96-2">96-2</option>
         <option  value="96-1">96-1</option>
         <option  value="95-2">95-2</option>
-        <option  value="95-1">95-1</option> 
+        <option  value="95-1">95-1</option>
         <option  value="94-2">94-2</option>
-        <option  value="94-1">94-1</option> 
-        <option  value="93-2">93-2</option> 
-        <option  value="93-1">93-1</option> 
-        
+        <option  value="94-1">94-1</option>
+        <option  value="93-2">93-2</option>
+        <option  value="93-1">93-1</option>
             </select>
           
-          共查詢到<font color="#CC0033"> <b>10</b> </font>筆課程：</td>
+          共查詢到<font color="#CC0033"> <b>11</b> </font>筆課程：</td>
           <td align='right'>
 &lt;&lt;上一頁　　        <SCRIPT LANGUAGE="JavaScript">
             window.open('com.htm','schedule','height=600,width=730,scrollbars=yes,resizable=yes');
         </SCRIPT>
 下一頁&gt;&gt;　<select name="jump" onChange="location.href=this.options[this.selectedIndex].value;">
-<option value='?alltime=yes&allproced=yes&op=stu&classarea=6&coursename=&teachername=&startrec=0&current_sem=107-1&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=50' selected>第1頁</option></select>   
+<option value='?alltime=yes&allproced=yes&op=stu&classarea=6&coursename=&teachername=&startrec=0&current_sem=107-2&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=100' selected>第1頁</option></select>   
           </td>
         </tr>
       </table>
@@ -377,17 +379,17 @@ function schedule_add(cid)
 </SCRIPT> 
 <table width="100%" border="1" cellspacing="1" cellpadding="1" bordercolorlight="#CCCCCC" bordercolordark="#CCCCCC">
 <tr bgcolor="#DDEDFF" align="center"><td height="25">流水號</td><td>授課對象</td><td>課號</td><td>班次</td><td>課程名稱<br><font color=red>查看課程大綱，請點選課程名稱</font><td>簡介影片<td>學分</td><td>課程識別碼</td><td>全/半年</td><td>授課教師</td><td>加選<br>方式</td><td>時間<br>教室</td><td>總人數</td><td width=15%>選課限制條件</td><td width=15%>備註</td><td width=3%>課程網頁</td><td width=10%>本學期<br>我預計<br>要選的<br>課程</td></tr>
-<tr align="center"><TD>26732</TD><TD>&nbsp;</TD><TD>LIS2009</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=106 26650&class=&dpt_code=0000&ser_no=26732&semester=107-1&lang=CH">程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>106 26650</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=106052">楊東謀</A></TD><TD>2</TD><TD>四2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2010   target=_new >(圖資資訊室)</a></TD><TD>30</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：30人,外系人數限制：5人</TD><TD ALIGN="left" VALIGN="TOP">限電資學院以外學生修習。圖資系與文學院學生優先。兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071LIS2009_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('26732')">加入</a></td></tr>
-<tr align="center"><TD>34715</TD><TD>&nbsp;</TD><TD>LIS5076</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=126 U0680&class=&dpt_code=0000&ser_no=34715&semester=107-1&lang=CH">資料庫管理系統</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>126 U0680</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=106052">楊東謀</A></TD><TD>2</TD><TD>一7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2010   target=_new >(圖資資訊室)</a></TD><TD>30</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：30人,外系人數限制：5人</TD><TD ALIGN="left" VALIGN="TOP">U選課程大學部與研究所學生均可修習。限電資學院以外學生修習。兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071LIS5076_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('34715')">加入</a></td></tr>
-<tr align="center"><TD>70528</TD><TD>&nbsp;</TD><TD>LIS5079</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=126 U1440&class=&dpt_code=0000&ser_no=70528&semester=107-1&lang=CH">資訊視覺化</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>126EU1440</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=106055">蔡天怡</A></TD><TD>2</TD><TD>二2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2010   target=_new >(圖資資訊室)</a></TD><TD>30(含開放臺大系統人數:4)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：26人,外系人數限制：5人</TD><TD ALIGN="left" VALIGN="TOP">本課程以英語授課。U選課程，大學部與研究所學生均可修習。兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識<A TARGET="_new" HREF="https://ceiba.ntu.edu.tw/question.php?lang=big5&course_id=126 U1440&class=&semester=107-1">本課程英文化程度說明</A></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071LIS5079"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('70528')">加入</a></td></tr>
-<tr align="center"><TD>10927</TD><TD>&nbsp;</TD><TD>MATH1007</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=201 49420&class=&dpt_code=0000&ser_no=10927&semester=107-1&lang=CH">數學與文明</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>201 49420</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=201012">張海潮</A></TD><TD>3</TD><TD>一8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新202)</a></TD><TD>50(含開放臺大系統人數:12)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：38人</TD><TD ALIGN="left" VALIGN="TOP">A6:量化分析與數學素養</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071MATH1007_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('10927')">加入</a></td></tr>
-<tr align="center"><TD>62850</TD><TD>&nbsp;</TD><TD>PS4512</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=302 20610&class=&dpt_code=0000&ser_no=62850&semester=107-1&lang=CH">統計史導論</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>302 20610</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=302099">黃旻華</A></TD><TD>2</TD><TD>五3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=         target=_new >(社科303)</a></TD><TD>100(含開放臺大系統人數:20)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人,外系人數限制：80人</TD><TD ALIGN="left" VALIGN="TOP">A6:量化分析與數學素養</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071PS4512_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('62850')">加入</a></td></tr>
-<tr align="center"><TD>28826</TD><TD>&nbsp;</TD><TD>IM2011</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=705 23600&class=&dpt_code=0000&ser_no=28826&semester=107-1&lang=CH">商管程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>705 23600</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=705065">孔令傑</A></TD><TD>2</TD><TD>一2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT4030-1 target=_new >(管二101)</a></TD><TD>175</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：175人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。本課程中文授課,使用英文教科書。實習課三班擇一,請參考課程大綱.管院120人,經濟系25人,其
-他30人.兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識與盧信銘合授<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071IM2011_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('28826')">加入</a></td></tr>
-<tr align="center"><TD>25346</TD><TD>&nbsp;</TD><TD>EE3025</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=901 30100&class=&dpt_code=0000&ser_no=25346&semester=107-1&lang=CH">科學研究與學術生涯</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>901 30100</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=945006">鍾孝文</A></TD><TD>2</TD><TD>一7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT3003-1 target=_new >(電二145)</a></TD><TD>60</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：60人</TD><TD ALIGN="left" VALIGN="TOP">A67:量化分析與數學素養、物質科學</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071EE3025_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('25346')">加入</a></td></tr>
-<tr align="center"><TD>21041</TD><TD>&nbsp;</TD><TD>CSIE1927</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=902 48120&class=&dpt_code=0000&ser_no=21041&semester=107-1&lang=CH">數學之美</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>902 48120</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=902064">呂學一</A></TD><TD>3</TD><TD>五8,9,10<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅101)</a></TD><TD>400(含開放臺大系統人數:20)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：380人</TD><TD ALIGN="left" VALIGN="TOP">兼通識A67*。。A67*:量化分析與數學素養、物質科學領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071bm"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('21041')">加入</a></td></tr>
-<tr align="center"><TD>18338</TD><TD>&nbsp;</TD><TD>LibEdu1094</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H01 09400&class=&dpt_code=0000&ser_no=18338&semester=107-1&lang=CH">R程式語言與資料處理</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>H01 09400</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02051">吳齊軒</A></TD><TD>2</TD><TD>第7,8,9,10,11,12,13,14,15                     週<br>四7,8,9,10<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2009   target=_new >(綜302)</a><IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>40</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：40人</TD><TD ALIGN="left" VALIGN="TOP">密集課程。自備筆電.現非電資學院學生選修.每週四小時（三小時lecture+一小時作業討論）。A6:量化分析與數學素養</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071RDM"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('18338')">加入</a></td></tr>
-<tr bgcolor=yellow align="center"><TD>45345</TD><TD>&nbsp;</TD><TD>IMPS1001</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H41 11000&class=&dpt_code=0000&ser_no=45345&semester=107-1&lang=CH">統計與生活</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H41 11000</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=701093">余峻瑜</A></TD><TD>3</TD><TD>四10,A,B<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1009   target=_new >(普205)</a></TD><TD>80</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人</TD><TD ALIGN="left" VALIGN="TOP">第10節為討論課。第一週請於6點到普205室。兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識與陳郁蕙合授</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1071IMPS1001_Stats"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('45345')">加入</a></td></tr>
+<tr align="center"><TD>37763</TD><TD>&nbsp;</TD><TD>LIS5075</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=126 U1410&class=&dpt_code=0000&ser_no=37763&semester=107-2&lang=CH">網際網路程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>126 U1410</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=106052">楊東謀</A></TD><TD>2</TD><TD>四7,8,9<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT2010   target=_new >(圖資資訊室)</a></TD><TD>30</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：30人,外系人數限制：15人</TD><TD ALIGN="left" VALIGN="TOP">U選課程，學士班與碩士班學生均可選修。圖資系與文學院學生優先。禁止電資學院學生選修。兼通識A6*。。A6*:量化分析與數學素養領域。可充抵通識</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072LIS5075_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('37763')">加入</a></td></tr>
+<tr align="center"><TD>41778</TD><TD>&nbsp;</TD><TD>PS4512</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=302 20610&class=&dpt_code=0000&ser_no=41778&semester=107-2&lang=CH">統計史導論</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>302 20610</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=302099">黃旻華</A></TD><TD>2</TD><TD>五3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=         target=_new >(社科303)</a></TD><TD>100(含開放臺大系統人數:20)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人,外系人數限制：80人</TD><TD ALIGN="left" VALIGN="TOP">純通識課程，政治系學生修課將不計入畢業學分，雙修生不計入雙修學分。。A6:量化分析與數學素養</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('41778')">加入</a></td></tr>
+<tr align="center"><TD>25346</TD><TD>&nbsp;</TD><TD>IM2011</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=705 23600&class=&dpt_code=0000&ser_no=25346&semester=107-2&lang=CH">商管程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>705 23600</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=705065">孔令傑</A></TD><TD>2</TD><TD>一2,3,4<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT4030-1 target=_new >(管二104)</a></TD><TD>175</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：175人</TD><TD ALIGN="left" VALIGN="TOP">初選不開放。實習課三班擇一,請參考課程大綱.管院120人,經濟系25人,其他30人.兼通識A6*.。A6*:量化分析與數學素養領域。可充抵通識與盧信銘合授</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('25346')">加入</a></td></tr>
+<tr align="center"><TD>21041</TD><TD>&nbsp;</TD><TD>EE3029</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=901 33900&class=&dpt_code=0000&ser_no=21041&semester=107-2&lang=CH">計算機程式設計</A></TD><TD>&nbsp; </TD><TD>4.0</TD><TD>901 33900</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=901071">鄭士康</A></TD><TD>3</TD><TD>五7,8,9,10<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1044   target=_new >(博雅301)</a></TD><TD>100(含開放臺大系統人數:4)</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：96人</TD><TD ALIGN="left" VALIGN="TOP">A6:量化分析與數學素養</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072EE3029_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('21041')">加入</a></td></tr>
+<tr align="center"><TD>15404</TD><TD>&nbsp;</TD><TD>EE4052</TD><TD>01</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=901 60200&class=01&dpt_code=0000&ser_no=15404&semester=107-2&lang=CH">計算機程式設計</A></TD><TD>&nbsp; </TD><TD>2.0</TD><TD>901 60200</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=941013">蘇國棟</A></TD><TD>3</TD><TD>三7,8,9(請洽系所辦)  </TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">上課地點:計中212。A6:量化分析與數學素養</TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072EE4052_01"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('15404')">加入</a></td></tr>
+<tr align="center"><TD>89677</TD><TD>&nbsp;</TD><TD>GenEdu5004</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H02 50010&class=&dpt_code=0000&ser_no=89677&semester=107-2&lang=CH">使用R語言進行資料分析</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H02 50010</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02039">蔡芸琤</A></TD><TD>2</TD><TD>四6,7,8<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1020   target=_new >(新103)</a></TD><TD>100</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：100人</TD><TD ALIGN="left" VALIGN="TOP">需自備筆電.第一堂課未到視同放棄.無須程式背景.。A6:量化分析與數學素養<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072GenEdu5004_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('89677')">加入</a></td></tr>
+<tr align="center"><TD>21417</TD><TD>&nbsp;</TD><TD>GenEdu5005</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H02 50020&class=&dpt_code=0000&ser_no=21417&semester=107-2&lang=CH">C/C++程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H02 50020</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02045">張傑帆</A></TD><TD>3</TD><TD>一5,6,7<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=         target=_new >(綜502)</a></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">限非電資學院學生選修.。A6:量化分析與數學素養<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072GenEdu5005_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('21417')">加入</a></td></tr>
+<tr align="center"><TD>85422</TD><TD>&nbsp;</TD><TD>GenEdu5006</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H02 50030&class=&dpt_code=0000&ser_no=85422&semester=107-2&lang=CH">Python 計算機程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H02 50030</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02045">張傑帆</A></TD><TD>3</TD><TD>一8,9,10<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=         target=_new >(綜502)</a></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">限非電資學院學生選修.。A6:量化分析與數學素養<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072GenEdu5009_"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('85422')">加入</a></td></tr>
+<tr align="center"><TD>27702</TD><TD>&nbsp;</TD><TD>GenEdu5007</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H02 50040&class=&dpt_code=0000&ser_no=27702&semester=107-2&lang=CH">前端程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H02 50040</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02043">陳琨</A></TD><TD>3</TD><TD>二A,B,C<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1009   target=_new >(普205)</a></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">限非電資學院之學生選修.第一堂未到視同放棄.。A6:量化分析與數學素養<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('27702')">加入</a></td></tr>
+<tr align="center"><TD>76510</TD><TD>&nbsp;</TD><TD>GenEdu5008</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H02 50050&class=&dpt_code=0000&ser_no=76510&semester=107-2&lang=CH">Java 計算機程式設計</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H02 50050</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=H02043">陳琨</A></TD><TD>1</TD><TD>一A,B,C<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1009   target=_new >(普205)</a></TD><TD>50</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：50人</TD><TD ALIGN="left" VALIGN="TOP">限非電資學院之學生選修.第一堂未到視同放棄.。A6:量化分析與數學素養<IMG SRC="images/chg.gif"   WIDTH="32" HEIGHT="18" ALIGN="ABSMIDDLE"></TD><TD> <A TARGET="_blank" HREF="http://ceiba.ntu.edu.tw/1072GenEdu5008"><IMG SRC="images/courseweb.gif" WIDTH="18" HEIGHT="18" BORDER="0" ALT="瀏覽課程網站" ALIGN="ABSMIDDLE"></A></TD><td><a href="#" ONCLICK="schedule_add('76510')">加入</a></td></tr>
+<tr bgcolor=yellow align="center"><TD>49140</TD><TD>&nbsp;</TD><TD>IMPS1001</TD><TD>&nbsp;</TD><TD>&nbsp;<A TARGET="_new" HREF="print_table.php?course_id=H41 11000&class=&dpt_code=0000&ser_no=49140&semester=107-2&lang=CH">統計與生活</A></TD><TD>&nbsp; </TD><TD>3.0</TD><TD>H41 11000</TD><TD>半年</TD><TD><A TARGET="_new" HREF="teacher.php?op=s2&td=701093">余峻瑜</A></TD><TD>3</TD><TD>三10,A,B<a href=http://map.ntu.edu.tw/ntu.html?layer=&uid=AT1009   target=_new >(普204)</a></TD><TD>80</TD><TD ALIGN="left" VALIGN="TOP">本校修課人數上限：80人</TD><TD ALIGN="left" VALIGN="TOP">第10節為討論課，A,B節為正課。第一周請於18:00到正課教室上課，討論課從第二周開始。。A6:量化分析與數學素養與陳郁蕙合授</TD><TD>&nbsp; </TD><td><a href="#" ONCLICK="schedule_add('49140')">加入</a></td></tr>
 </table>
 
 
@@ -397,10 +399,10 @@ function schedule_add(cid)
     <td align='left'> <font color="#CC0033">開學後之加選方式:1-不限人數，直接上網加選  2-向教師取得授權碼後加選  3-有人數限制，上網登記後分發<br>「選課限制條件」欄位中有關身分之限制，僅適用於初選階段，不適用於開學後之加退選階段。但下列二種情況仍須限制：<br>1.較高學制課程未開放較低學制學生修習者（僅第一、三類加選方式課程適用）。<br>2.在職專班課程限在職專班學生修習（各類加選方式皆適用）。 </td>
 </tr>
     <tr>
-          <td align='left'>共查詢到<font color="#CC0033"> <b>10</b> </font>筆課程</td>
+          <td align='left'>共查詢到<font color="#CC0033"> <b>11</b> </font>筆課程</td>
           <td align='right'>
 &lt;&lt;上一頁　　下一頁&gt;&gt;　<select name="jump" onChange="location.href=this.options[this.selectedIndex].value;">
-<option value='?alltime=yes&allproced=yes&op=stu&classarea=6&coursename=&teachername=&startrec=0&current_sem=107-1&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=50' selected>第1頁</option></select>   
+<option value='?alltime=yes&allproced=yes&op=stu&classarea=6&coursename=&teachername=&startrec=0&current_sem=107-2&week1=&week2=&week3=&week4=&week5=&week6=&proced0=&proced1=&proced2=&proced3=&proced4=&procedE=&proced5=&proced6=&proced7=&proced8=&proced9=&procedA=&procedB=&procedC=&procedD=&page_cnt=100' selected>第1頁</option></select>   
           </td>
         </tr>
       </table>
