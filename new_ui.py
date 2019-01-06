@@ -95,7 +95,7 @@ class Search:
     def __init__(self):
         self.search = tk.Tk()
         self.search.title("結果")
-        self.search.geometry("1000x500")
+        self.search.geometry("1400x500")
 
         self.ybar = Scrollbar(self.search, command = self.OnVsb)
         self.ybar.pack(side = RIGHT, fill = Y)
@@ -108,8 +108,8 @@ class Search:
         self.listbox3 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
         self.listbox4 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
         self.listbox5 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
-        # self.listbox6 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
-        # self.listbox7 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
+        self.listbox6 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
+        self.listbox7 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
         # self.listbox8 = Listbox(self.search, yscrollcommand = self.ybar.set, xscrollcommand = self.xbar.set)
 
         for i in range(len(view)):
@@ -118,8 +118,8 @@ class Search:
             self.listbox3.insert(END, view[i][2])
             self.listbox4.insert(END, view[i][3])
             self.listbox5.insert(END, view[i][4])
-            # self.listbox6.insert(END, view[i][5])
-            # self.listbox7.insert(END, view[i][6])
+            self.listbox6.insert(END, view[i][5])
+            self.listbox7.insert(END, view[i][6])
             # self.listbox8.insert(END, view[i][7])
 
         # print(view[1])
@@ -129,8 +129,8 @@ class Search:
         self.listbox3.pack(side = LEFT, fill = BOTH)
         self.listbox4.pack(side = LEFT, fill = BOTH)
         self.listbox5.pack(side = LEFT, fill = BOTH)
-        # self.listbox6.pack(side = LEFT, fill = BOTH)
-        # self.listbox7.pack(side = LEFT, fill = BOTH)
+        self.listbox6.pack(side = LEFT, fill = BOTH)
+        self.listbox7.pack(side = LEFT, fill = BOTH)
         # self.listbox8.pack(side = LEFT, fill = BOTH)
 
         self.listbox1.bind("<MouseWheel>", self.OnMouseWheel)
@@ -138,8 +138,8 @@ class Search:
         self.listbox3.bind("<MouseWheel>", self.OnMouseWheel)
         self.listbox4.bind("<MouseWheel>", self.OnMouseWheel)
         self.listbox5.bind("<MouseWheel>", self.OnMouseWheel)
-        # self.listbox6.bind("<MouseWheel>", self.OnMouseWheel)
-        # self.listbox7.bind("<MouseWheel>", self.OnMouseWheel)
+        self.listbox6.bind("<MouseWheel>", self.OnMouseWheel)
+        self.listbox7.bind("<MouseWheel>", self.OnMouseWheel)
         # self.listbox8.bind("<MouseWheel>", self.OnMouseWheel)
 
         self.search.mainloop()
@@ -150,8 +150,9 @@ class Search:
         self.listbox3.yview(*args)
         self.listbox4.yview(*args)
         self.listbox5.yview(*args)
-        # self.listbox6.yview(*args)
-        # self.listbox7.yview(*args)
+        self.listbox6.yview(*args)
+        self.listbox7.yview(*args)
+
         # self.listbox8.yview(*args)
 
     def OnMouseWheel(self, event):
@@ -160,8 +161,9 @@ class Search:
         self.listbox3.yview("scroll", event.delta, "units")
         self.listbox4.yview("scroll", event.delta, "units")
         self.listbox5.yview("scroll", event.delta, "units")
-        # self.listbox6.yview("scroll", event.delta, "units")
-        # self.listbox7.yview("scroll", event.delta, "units")
+        self.listbox6.yview("scroll", event.delta, "units")
+        self.listbox7.yview("scroll", event.delta, "units")
+        
         # self.listbox8.yview("scroll", event.delta, "units")
         return "break"
 
@@ -199,5 +201,6 @@ if __name__ == "__main__":
     read_dept()
     app = Home()
     app.master.title("智慧通識小幫手")
+    app.master.minsize(width = 100, height = 100)
     app.mainloop()
 
