@@ -22,6 +22,8 @@ for x in range(1,9):
 			data[x - 1].append(new)
 for x in range(8):
 	del data[x][0] # 把第一列刪除
+	for y in range(len(data[x])):	
+		data[x][y].insert(0, "A" + str(x + 1))
 	print(len(data[x]))
 	print(data[x])
 file = open('lecture.pickle', 'wb')
