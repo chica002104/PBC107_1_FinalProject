@@ -12,7 +12,7 @@ import pandas as pd
 dept = []
 opt = []
 view = []
-
+choose = []
 
 def take(x):
     if len(x) >= 6:
@@ -68,7 +68,7 @@ class Home(tk.Frame):
 		view.clear()
 		tmp = self.variable.get()
 		tmp3 = self.variable2.get()
-		choose = []
+		
 
 		for x in range(len(opt)):
 			if tmp == opt[x]:
@@ -78,7 +78,7 @@ class Home(tk.Frame):
 		for x in range(len(tmp2)):
 			if tmp2[x] == 1:
 				choose.append(x)  # 新增到另一個list
-                # print(choose)
+				#print(choose)
 			
 		for x in range(len(choose)):
 			tmp = choose[x]
@@ -100,7 +100,15 @@ class Search:
         self.search.title("結果")
         self.search.geometry("1400x500")
 
-        self.l = Label(self.search, text="系級", bg="white", font=("Arial", 12), width=15, height=2)
+        tmp = ""
+
+        for i in choose:
+            if(i == choose[len(choose) - 1]):
+                tmp += (" A" + str(i + 1))
+            else:
+                tmp += (" A" + str(i + 1) + "、")
+
+        self.l = Label(self.search, text = "你能修的通識領域：" + tmp , bg="white", font=("Apple Braille", 32), width = 50, height = 2)
         self.l.pack()
 
         self.ybar = Scrollbar(self.search, command = self.OnVsb)
