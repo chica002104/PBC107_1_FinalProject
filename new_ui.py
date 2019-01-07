@@ -3,6 +3,8 @@ from tkinter import *
 import csv
 import numpy as np
 import pickle
+import tkinter.font as tkfont
+# 固定格式
 import pandas as pd
 # from tkintertable import TableCanvas, TableModel
 
@@ -37,8 +39,8 @@ class Home(tk.Frame):
 		# self.geometry("500x500")
 
 	def createWidgets(self):
-		# global variable
-		self.l = tk.Label(self, text="系級", bg="white", font=("Arial", 12), width=15, height=2)
+		f1 = tkfont.Font(size = 32, family = "Apple Braille")
+		self.l = tk.Label(self, text="系級", bg="white", font = f1, width=15, height=2)
 		#self.l.pack()  # 固定窗口位置
 
 		self.variable = StringVar(self)
@@ -46,13 +48,13 @@ class Home(tk.Frame):
     # opt.remove(opt[0])
 		self.w = OptionMenu(self, self.variable, *opt)
 		# self.w.pack()
-		self.l2 = tk.Label(self, text="如何排序", bg="white", font=("Arial", 12), width=15, height=2)
+		self.l2 = tk.Label(self, text="如何排序", bg="white", font = f1, width=15, height=2)
 		# self.l2.pack()
 		self.variable2 = StringVar(self)
 		self.w2 = OptionMenu(self, self.variable2, *sort_ls)
 		# self.w2.pack()
 
-		self.button = Button(self, text = "OK", command = self.search)	
+		self.button = Button(self, text = "OK",font = f1, command = self.search)	
 		# self.button.pack()
 
 		self.l.grid(row = 0, column = 0)
@@ -85,7 +87,8 @@ class Home(tk.Frame):
                 # print(view) # 所有可以修的通識課
 			if tmp3 == "依選課上限人數排序":
 				view.sort(key=take, reverse=True)
-        #print(view[0], view[1])	
+        #print(view)	
+        
 
 		Search()
 
@@ -96,6 +99,9 @@ class Search:
         self.search = tk.Tk()
         self.search.title("結果")
         self.search.geometry("1400x500")
+
+        self.l = Label(self.search, text="系級", bg="white", font=("Arial", 12), width=15, height=2)
+        self.l.pack()
 
         self.ybar = Scrollbar(self.search, command = self.OnVsb)
         self.ybar.pack(side = RIGHT, fill = Y)
@@ -201,6 +207,6 @@ if __name__ == "__main__":
     read_dept()
     app = Home()
     app.master.title("智慧通識小幫手")
-    app.master.minsize(width = 100, height = 100)
+    app.master.minsize(width = 200, height = 300)
     app.mainloop()
 
